@@ -1,14 +1,16 @@
 # Is this client suitable for granting a loan?
 
+## Problem introduction
+
 The banks have an important role in every economy because are the best instruments for the monetary policy to fulfill its role and multiply money through the granting of credits. For that reason, the banks have to be sure that their potential clients are suitable for a loan, since their probability of default is minimal.
-
-The purpose of this project consist in set up a model that can be used by a bank to properly classify its customers. In this way, this project analyses historical data containing relevant information of the debtors and with a machine learning model predict the probability that a customer of a bank will experience financial distress in the next two years.
-
-## Problem
 
 The credit risk is one of the most important risks that a bank must analyze and mitigate everyday. These institutions have to determine if their potential clients are going to pay or not their debts. If some of these clients go into default, the banks have to spend on provisions, that depending on their magnitude, they could considerably affect their profits. That is why it is important to have the best models possible to predict the probability that a potential client could default in the future.
 
-## Data exploration
+## Strategy to solve the problem
+
+The purpose of this project consist in set up a model that can be used by a bank to properly classify its customers. In this way, this project analyses historical data containing relevant information of the debtors and with a machine learning model predict the probability that a customer of a bank will experience financial distress in the next two years.
+
+## Exploratory Data Analysis
 
 The dataset was obtain from the [Kaggle](https://www.kaggle.com/c/GiveMeSomeCredit) competition 'Give me some credit'. It has information from 150,000 clients about their financial behavior and some personal data like age and number of dependents in their family. The target variable 'SeriousDlquin2yrs' its a dummy that takes the value of 1 if the person experienced 90 days past due deliquency or worse, and 0 otherwhise.
 
@@ -61,6 +63,6 @@ This XGBoost model ('learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 300) g
 
 This results confirm the good performance of the model to determine the probability of non-compliance by customers of this banking entity.
 
-## Conclusion
+## Conclusion and improvements
 
 As it could be observed, there are several stages that a data scientist must execute in order to respond to the problem that may arise. In this case, this project consisted in the construction of a robust model that allowed the properly classification of the customers of this bank. However, we learned the importance of data quality in order to achieve the best possible results in modelling. In that way, the improvements that must be taken into account are aimed at guaranteeing the best  possible data gathering, that will result in least number of incosistencies in the values of the observations.
