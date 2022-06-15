@@ -63,6 +63,10 @@ This XGBoost model ('learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 300) g
 
 This results confirm the good performance of the model to determine the probability of non-compliance by customers of this banking entity.
 
-## Conclusion and improvements
+## Conclusion  
 
-As it could be observed, there are several stages that a data scientist must execute in order to respond to the problem that may arise. In this case, this project consisted in the construction of a robust model that allowed the properly classification of the customers of this bank. However, we learned the importance of data quality in order to achieve the best possible results in modelling. In that way, the improvements that must be taken into account are aimed at guaranteeing the best  possible data gathering, that will result in least number of incosistencies in the values of the observations.
+As it could be observed, there are several stages that a data scientist must execute in order to respond to the problem that may arise. In this case, this project consisted in the construction of a robust model that allowed the properly classification of the customers of this bank. In this way, this project analyses historical data containing relevant information of the debtors and with XGBoost tunned predict the probability that a customer of a bank will experience financial distress in the next two years.
+
+## Improvements
+
+Regarding possible improvements we learned the importance of data quality in order to achieve the best possible results in modelling. In that way, the improvements that must be taken into account are aimed at guaranteeing the best possible data gathering, that will result in least number of incosistencies in the values of the observations and in better results when modelling.
