@@ -17,7 +17,7 @@ The dataset was obtain from the [Kaggle](https://www.kaggle.com/c/GiveMeSomeCred
 
 ## 4. Results
 
-
+In this [blog](https://gutorres93.github.io/udacity_p4/) you can find the steps and results of this project.
 
 ## 5. Licesing, authors, acknowledgments
 The author of this project is Gustavo Torres, economist from Universidad de los Andes, currently working as a Senior Data Scientist at Banco Davivienda. Must give credit to Kaggle for the data. You can find the the data and other descriptive information at this site.
