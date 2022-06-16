@@ -37,6 +37,10 @@ From this finding, several assumptions could be made to determine the reason for
 
 Another aspect that was observed in this step was that the database was unbalanced, this means that the dependent variable has many customers that have not defaulted (93.34%) and few defaulted (6.62%). In this sense, we used the SMOTE algorithm in order to balance the data (50/50). At the end of this step, there were 185,434 observations in the dataset that were used to fit the machine learning model.
 
+## Metrics
+
+For this project the metrics that were analyzed to see the performance of the model were the precision, recall and f1-score because are the most common metrics that can be used in classifaction models. For comparing and selection of the best model it was uses the f1-score in the GridSearchCV algorithm, because it is a harmonic mean between the precesion and the recall.
+
 ## Modelling and evaluation
 
 To estimate the probability of default and classify the clients based on some of its characteristics, it was decided to use the AdaBoost and the XGBoost models.
