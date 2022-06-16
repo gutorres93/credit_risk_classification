@@ -39,7 +39,7 @@ Another aspect that was observed in this step was that the database was unbalanc
 
 ## Metrics
 
-For this project the metrics that were analyzed to see the performance of the model were the precision, recall and f1-score because are the most common and appropriate metrics that can be used in a classifaction models. For the comparison and selection of the best model it was uses the f1-score in the GridSearchCV algorithm, because it is a harmonic mean between the precesion and the recall.
+For this project the metrics that were analyzed to see the performance of the model were the precision, recall and f1-score because are the most common and appropriate metrics that can be used in the classification models. For the comparison and selection of the best model it was uses the f1-score in the GridSearchCV algorithm, because it is a harmonic mean between the precesion and the recall metrics.
 
 ## Modelling and evaluation
 
